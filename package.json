@@ -1,0 +1,37 @@
+{
+  "name": "namaste-react",
+  "version": "1.0.0",
+  "description": "This is namaste react",
+  "scripts": {
+    "start":"parcel index.html",
+    "build":"parcel build index.html",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gauravparashar12/NamasteReact.git"
+  },
+  "keywords": [
+    "react"
+  ],
+  "author": "Gaurav",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gauravparashar12/NamasteReact/issues"
+  },
+  "homepage": "https://github.com/gauravparashar12/NamasteReact#readme",
+  "dependencies": {
+    "node-gyp": "^9.4.0",
+    "package.json": "^2.0.1",
+    "parcel": "^2.9.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "browserlist":[
+    "last 2 versions"
+  ],
+  "devDependencies": {
+    "node-gyp-build-optional-packages": "^5.1.1",
+    "process": "^0.11.10"
+  }
+}
